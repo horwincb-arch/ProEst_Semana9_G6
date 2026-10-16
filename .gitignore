@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Fotografías capturadas durante las pruebas
+pila_fotografias/uploads/*
+!pila_fotografias/uploads/.gitkeep
+
+# Archivos temporales del editor
+.vscode/
